@@ -4,5 +4,6 @@
 <meta charset="utf-8">
 	<title>UsedMed</title>
 	<?php wp_head(); ?>
+
 </head>
 <body>
