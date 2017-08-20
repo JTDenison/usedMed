@@ -1,4 +1,11 @@
-<?php wp_content(); ?>
+<?php 
+/*
+ * Template Name: Home Page
+ * Description: UsedMed Home page.
+ */
+
+// Code to display Page goes here...
+ ?>
 <div class="list-group">
 	<a href="#" onclick="openSearch();return false" class="list-group-item">Search<span class="fa fa-search pull-right"></span></a>
 

@@ -10,4 +10,13 @@ function usedMed_script_enqueue() {
 // call function to action
 add_action('wp_enqueue_scripts', 'usedMed_script_enqueue');
 
+function usedMed_theme_setup() {
+	add_theme_support('menus');
+
+	register_nav_menu('primary', 'Primary header nav');
+	register_nav_menu('secondary', 'Primary footer nav');
+}
+
+add_action('init', 'add_theme_support');
+
 ?>
