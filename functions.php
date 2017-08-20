@@ -19,4 +19,4 @@ function usedMed_theme_setup() {
 
 add_action('init', 'add_theme_support');
 
-?>
+require get_template_directory() . '/inc/function-admin.php';
