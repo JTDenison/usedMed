@@ -8,4 +8,8 @@
 	<?php wp_head(); ?>
 
 </head>
-<body>
+	<?php
+	// body _class taks array of params body_class(array('class','class'))
+	?>
+<body <?php body_class(); ?>>
+<?php wp_nav_menu(array('theme_location'=>'primary')); ?>

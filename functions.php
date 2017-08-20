@@ -16,4 +16,4 @@ function usedMed_theme_setup() {
 	register_nav_menu('secondary', 'Primary footer nav');
 }
 
-add_action('init', 'add_theme_support');
+add_action('init', 'usedMed_theme_setup');
