@@ -17,3 +17,6 @@ function usedMed_theme_setup() {
 }
 
 add_action('init', 'usedMed_theme_setup');
+
+
+add_theme_support('custom-header');

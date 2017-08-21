@@ -11,13 +11,24 @@
         bone-densitometer, biomedical, bed, autoclave, anesthesiology, anesthesia, x-ray, veterinary, ultrasound, surgical, surgery, sterilizer, scanner, sales, 
         respiratory, reseller, remarketer, rehabilitation, radiology, physicians office, physical therapy, photographic, pharmacy, orthopedics, ophthalmology, 
         operating room, OBGYN, nuclear, neurology, neonatal, microscope">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<title>UsedMed</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<title>UsedMed</title>
 	<?php wp_head(); ?>
 
 </head>
+
 	<?php
 	// body_class takes array of params = body_class(array('class','class'))
 	?>
 <body <?php body_class(); ?>>
-<?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+	<ul class="nav navbar-nav navbar-right">
+		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>"" alt="UsedMed" />
+				<li>
+					<ul class="nav nav-pills">
+						<li role="presentation"><a class="post-pills" href="#">Login</a></li>
+						<li role="presentation"><a class="post-pills" href="#">Register</a></li>
+						<li role="presentation"><a class="post-pills" href="/listings/post.html">Post Listing</a></li>
+						<li role="presentation"><a class="post-pills" href="/auctions/post.html">Post Auction</a></li>
+						<li role="presentation"><a class="post-pills" href="/listings/post.html?type=ps">Post Private Sale</a></li>
+					</ul>
+				</li>
