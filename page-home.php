@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="wrap">
 <?php 
 /*
  * Template Name: Home Page
@@ -24,5 +25,6 @@
 	<a href="#" class="list-group-item">My Account</a>
 
 	</div>
+</div>
 
 <?php get_footer(); ?>

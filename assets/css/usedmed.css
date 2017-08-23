@@ -2,19 +2,3 @@ html,body{
 	margin: 0;
 	font: sans-serif;
 }
-site-header {
-	display: inline-block;
-	overflow: auto;
-	position: relative;
-	width: 100%;
-	clear: both;
-}
-
-.navbar-right {
-    float: right!important;
-    margin-right: -15px;
-}
-li {
-	margin-left: 14;
-	margin-right: 14;
-}
