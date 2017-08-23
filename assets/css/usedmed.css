@@ -8,3 +8,7 @@ list-group{
 	padding: 10px 15px;
 	border: 1px solid #ddd;
 }
+
+nav nav-pills{
+	display: block;
+}

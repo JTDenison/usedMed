@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="description" content="UsedMed.com is a medical and hospital equipment classified advertising site for new and used medical equipment for sale or wanted, 
-        we also list refurbished medical equipment. We also offer a medical equipment related Services Directory.">
+<meta name="description" content="UsedMed.com is a medical and hospital equipment classified advertising site for new and used medical equipment for sale or wanted, we also list refurbished medical equipment. We also offer a medical equipment related Services Directory.">
 <meta name="keywords" content="used medical equipment, refurbished, medical, mammography, laproscopy, laboratory, imaging, hospital equipment, gastroscope, 
         equipment, ENT, endoscopy, endoscopic, EKG, ECG, doctor, dialysis, diagnostic, dental, defibrillator, dealers, CT scanner, centrifuge, c-arm, cardiology, 
         bone-densitometer, biomedical, bed, autoclave, anesthesiology, anesthesia, x-ray, veterinary, ultrasound, surgical, surgery, sterilizer, scanner, sales, 
@@ -27,8 +26,8 @@
 					<ul class="nav nav-pills">
 						<li role="presentation"><a class="post-pills" href="#">Login</a></li>
 						<li role="presentation"><a class="post-pills" href="#">Register</a></li>
-						<li role="presentation"><a class="post-pills" href="/listings/post.html">Post Listing</a></li>
-						<li role="presentation"><a class="post-pills" href="/auctions/post.html">Post Auction</a></li>
-						<li role="presentation"><a class="post-pills" href="/listings/post.html?type=ps">Post Private Sale</a></li>
+						<li role="presentation"><a class="post-pills" href="#">Post Listing</a></li>
+						<li role="presentation"><a class="post-pills" href="#">Post Auction</a></li>
+						<li role="presentation"><a class="post-pills" href="#">Post Private Sale</a></li>
 					</ul>
 				</li>
