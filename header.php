@@ -20,8 +20,11 @@
 	// body_class takes array of params = body_class(array('class','class'))
 	?>
 <body <?php body_class(); ?>>
+<header>
 	<ul class="nav navbar-nav navbar-right">
 		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>"" alt="UsedMed" />
+
+
 				<li>
 					<ul class="nav nav-pills">
 						<li role="presentation"><a class="post-pills" href="#">Login</a></li>
@@ -31,3 +34,5 @@
 						<li role="presentation"><a class="post-pills" href="#">Post Private Sale</a></li>
 					</ul>
 				</li>
+
+</header>

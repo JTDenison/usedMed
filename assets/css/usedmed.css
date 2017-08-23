@@ -11,4 +11,5 @@ list-group{
 
 nav nav-pills{
 	display: block;
+	float: right;
 }

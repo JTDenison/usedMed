@@ -23,4 +23,6 @@
 
 	<a href="#" class="list-group-item">My Account</a>
 
+	</div>
+
 <?php get_footer(); ?>
