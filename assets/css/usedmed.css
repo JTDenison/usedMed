@@ -1,9 +1,80 @@
-html,body{
-	margin: 0;
-	font: sans-serif;
+body {
+    font-size: 14px
 }
 
-#wrap {
-	min-height: 100%;
-	height: auto !important;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: helvetica, arial, sans-serif
+}
+
+.btn {
+    border-radius: 3em
+}
+.container {
+    max-width: 900px
+}
+.navbar {
+    background: #fff;
+    padding: .3em 0
+}
+.navbar .navbar-brand {
+    color: #000;
+    font-family: georgia, serif;
+    font-weight: bold
+}
+
+.navbar ul.nav li a {
+    color: #111;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 1.5em
+}
+
+.navbar ul.nav li a:hover {
+    color: #000
+}
+
+.navbar ul.nav li button {
+    margin: .7em 0 0 1em
+}
+footer {
+    background: #fff;
+    color: #fff;
+    padding: 1.5em 0 .8em
+    height: 334px;
+    margin-top: 20px
+}
+
+@media screen and (max-width:768px) {
+    .navbar ul.nav li {
+        text-align: center;
+        font-size: 12px
+    }
+    .navbar ul.nav li button {
+        margin: 1em 0
+    }
+    .jumbotron {
+        font-size: 14px;
+        padding: 6em 0 4em
+    }
+    .benefit {
+        margin-bottom: 2em
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        font-size: 14px
+    }
+    .jumbotron {
+        font-size: 12px
+    }
+    footer .pull-right {
+        display: none
+    }
 }

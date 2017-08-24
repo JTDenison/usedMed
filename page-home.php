@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div id="wrap">
 <?php 
 /*
  * Template Name: Home Page
