@@ -2,3 +2,8 @@ html,body{
 	margin: 0;
 	font: sans-serif;
 }
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+}

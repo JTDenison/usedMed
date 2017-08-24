@@ -20,6 +20,7 @@
 	// body_class takes array of params = body_class(array('class','class'))
 	?>
 <body <?php body_class(); ?>>
+<div id="wrap">
 
 <header class="site-header">
 	<div class="row header-row">
