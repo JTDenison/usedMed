@@ -49,12 +49,13 @@ footer {
     background: #eee;
     color: black;
     padding: 1.5em 0 .8em;
-    height: 200px;
+    height: 250px;
     width: 100%;
     padding-top: 1.5em;
     position: fixed;
     bottom: 0;
 }
+/*media queries*/
 
 @media screen and (max-width:768px) {
     .navbar ul.nav li {
@@ -79,19 +80,18 @@ footer {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-#menu-footer-navigation{
-	margin-top: 20px;
-	margin-bottom: 10px;
+	}
+	#menu-footer-navigation{
+		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 	footer {
-		height: 160px;
-		padding: 0;
-		margin: 0;
-		line-height: 1em;
-		font-size: 80%;
-}
-}
+			height: 160px;
+			padding: 0;
+			margin: 0;
+			line-height: 1em;
+			font-size: 80%;
+			}
 }
 
 @media screen and (max-width:480px) {
@@ -112,3 +112,20 @@ footer {
  .fa-lg {
  	margin-right: .5em;
  }
+
+ /*search button */
+ form {
+display: inline-block;
+width: 100%;
+}
+.search{
+width: 50%;
+margin: 0 auto;
+}
+.input-group-btn {
+display: inline;
+}
+#search-dropdown button {
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+}

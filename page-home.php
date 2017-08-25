@@ -8,7 +8,9 @@
  ?>
  <div class="container-fluid">
 <div class="list-group">
-	<a href="#" onclick="openSearch();return false" class="list-group-item">Search<i class="fa fa-search pull-right"></i> </a>
+	<a href="#" class="list-group-item">Search<form class="search">
+			<input type="text" placeholder="Search..." required>
+			</form><i class="fa fa-search pull-right"></i></a>
 
 	<a href="#" class="list-group-item">Equipment<i class="fa fa-plug pull-right"></i></a>
 
