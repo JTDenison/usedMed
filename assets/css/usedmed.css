@@ -1,8 +1,7 @@
-body {
-    font-size: 14px
-    margin:0;
+html{
+	height: 100%;
+	overflow: hidden;
 }
-
 body,
 h1,
 h2,
@@ -15,6 +14,12 @@ h6 {
 
 .container {
     max-width: 900px
+}
+.container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .navbar {
     background: #fff;
@@ -30,7 +35,7 @@ h6 {
     color: #111;
     padding-left: 0;
     padding-right: 8px;
-    margin: 0 1.5em;
+    margin: 0 1.9em;
 }
 
 .navbar ul.nav li a:hover {
@@ -44,8 +49,11 @@ footer {
     background: #eee;
     color: black;
     padding: 1.5em 0 .8em;
-    height: 334px;
-    padding-top: 1.5em
+    height: 200px;
+    width: 100%;
+    padding-top: 1.5em;
+    position: fixed;
+    bottom: 0;
 }
 
 @media screen and (max-width:768px) {
@@ -66,6 +74,24 @@ footer {
     .benefit {
         margin-bottom: 2em
     }
+    .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#menu-footer-navigation{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	}
+	footer {
+		height: 160px;
+		padding: 0;
+		margin: 0;
+		line-height: 1em;
+		font-size: 80%;
+}
+}
 }
 
 @media screen and (max-width:480px) {
@@ -79,3 +105,10 @@ footer {
         display: none
     }
 }
+ a{
+ 	color: black;
+ }
+
+ .fa-lg {
+ 	margin-right: .5em;
+ }
