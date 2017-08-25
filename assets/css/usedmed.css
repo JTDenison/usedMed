@@ -1,5 +1,6 @@
 body {
     font-size: 14px
+    margin:0;
 }
 
 body,
@@ -12,9 +13,6 @@ h6 {
     font-family: helvetica, arial, sans-serif
 }
 
-.btn {
-    border-radius: 3em
-}
 .container {
     max-width: 900px
 }
@@ -31,8 +29,8 @@ h6 {
 .navbar ul.nav li a {
     color: #111;
     padding-left: 0;
-    padding-right: 0;
-    margin: 0 1.5em
+    padding-right: 8px;
+    margin: 0 1.5em;
 }
 
 .navbar ul.nav li a:hover {
@@ -43,11 +41,11 @@ h6 {
     margin: .7em 0 0 1em
 }
 footer {
-    background: #fff;
-    color: #fff;
-    padding: 1.5em 0 .8em
+    background: #eee;
+    color: black;
+    padding: 1.5em 0 .8em;
     height: 334px;
-    margin-top: 20px
+    padding-top: 1.5em
 }
 
 @media screen and (max-width:768px) {
@@ -57,6 +55,9 @@ footer {
     }
     .navbar ul.nav li button {
         margin: 1em 0
+    }
+    .navbar ul.nav li a {
+    	margin-right: 1em;
     }
     .jumbotron {
         font-size: 14px;

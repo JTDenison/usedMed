@@ -11,6 +11,5 @@ ALL RIGHTS RESERVED
         </div>
 <?php wp_footer(); ?>
 </footer>
-<div></div>
 </body>
 </html>
