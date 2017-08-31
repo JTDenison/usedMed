@@ -33,7 +33,13 @@
 							<li role="presentation"><a class="post-pills" href="#">Post Listing</a></li>
 							<li role="presentation"><a class="post-pills" href="#">Post Auction</a></li>
 						</ul>
+
+	<!-- Seach Bar !-->
 				</div>
+
 		</nav>
+			
 	</div>
+
 </header>
+
