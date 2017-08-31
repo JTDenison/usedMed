@@ -36,7 +36,28 @@
 
 	<!-- Seach Bar !-->
 				</div>
+<form class="navbar-form navbar-left" role="search" action="/equipment/search.html" id="search-form" itemprop="potentialAction" itemscope="" itemtype="">
+						<div class="dropdown" id="search-dropdown">
+							<button class="btn dropdown-toggle btn-default" type="button" id="search-menu" data-toggle="dropdown"><i class="fa fa-plug fa-fw"></i> <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="search-menu">
+								<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-plug fa-fw"></i>Equipment</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-cogs fa-fw"></i> Parts</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="glyphicon glyphicon-wrench fa-fw"></span> Services/Companies</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-users fa-fw"></i> People</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="glyphicon glyphicon-list-alt fa-fw"></span> Equipment Guide</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-comments fa-fw"></i>Forums</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-newspaper-o fa-fw"></i>News</a></li>
+							</ul>
+						</div>
 
+						<div class="input-group" id="search-input">
+							<input type="text" class="form-control" placeholder="Search" name="key" value="" id="top-search" itemprop="query-input" required="">
+							<span class="input-group-btn">
+								<button type="submit" class="btn btn-md btn-default" id="search-btn-submit"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+					</form>
 		</nav>
 			
 	</div>

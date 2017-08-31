@@ -8,6 +8,7 @@ body {
   height: 100%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
+
 }
 body,
 h1,
@@ -89,6 +90,12 @@ footer {
     color: #fff;
     padding: 1.5em 0 .8em
 }
+@media(min-width:767px) {
+    #search-dropdown {
+        left: 244px
+    }
+}
+
 
 @media screen and (max-width:480px) {
     body {
@@ -107,6 +114,7 @@ footer .pull-right {
     min-height: 100%;
     height: auto !important;
     height: 100%
+    color: #111;
 }
 
 #footer {
@@ -183,4 +191,59 @@ footer .pull-right {
 
 .navbar ul.nav li a {
     margin: 0 1em;
+}
+a{
+	color: #111;
+}
+#lang-dropdown {
+    display: inline
+}
+#search-input {
+    margin-left: 50px
+}
+#search-dropdown {
+    display: inline;
+    float: left;
+    position: absolute;
+    left: 10px
+}
+#search-dropdown img {
+    float: left;
+    margin-right: 3px
+}
+#search-dropdown button {
+    border-radius: 4px 0 0 4px;
+    border-right: 0
+}
+
+#search-dropdown span.equipment,
+#search-dropdown span.news,
+#search-dropdown span.forums {
+    height: 16px;
+    width: 16px;
+    margin-right: 3px;
+    display: inline-block
+}
+
+#search-dropdown span.equipment {
+    background: url("/images/equipment-icon-small.png")
+}
+#search-dropdown span.forums {
+    background: url("/images/forum-icon-small.png")
+}
+#search-dropdown span.news {
+    background: url("/images/news-icon-small.png")
+}
+#search-menu .dropdown-menu {
+    position: absolute;
+    top: 180px
+}
+
+.star {
+    color: #febd01
+}
+
+#search-input {
+    float: left;
+    margin-left: 50px
 }
