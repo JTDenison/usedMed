@@ -27,13 +27,14 @@
 						<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>"" alt="UsedMed" />
 					</div>
 				</div>
+				<div class="header-nav-list">
 						<ul class="nav navbar-right">
 							<li role="presentation"><a class="post-pills" href="#">Login</a></li>
 							<li role="presentation"><a class="post-pills" href="#">Register</a></li>
 							<li role="presentation"><a class="post-pills" href="#">Post Listing</a></li>
 							<li role="presentation"><a class="post-pills" href="#">Post Auction</a></li>
 						</ul>
-
+				</div>
 	<!-- Seach Bar !-->
 				</div>
 <form class="navbar-form navbar-left" role="search" action="/equipment/search.html" id="search-form" itemprop="potentialAction" itemscope="" itemtype="">
